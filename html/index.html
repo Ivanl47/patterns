@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Data</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>Device Data</h1>
+    </header>
+    <main>
+        <section id="login-section">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+        <section id="device-section" style="display: none;">
+            <h2>Your Devices</h2>
+            <button id="create-device-button">Create Device</button>
+            <ul id="device-list">
+                <!-- Devices will be dynamically loaded here -->
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <h2 align="center">дві історії з життя, (перша сумна)</h2>
+    <div id="root_section" align="center">
+        <img src="root.jpg" alt=""  id="root">
+        <img src="not_root.jpg" alt="" id="not_root">
+    </div>
+    <h2 align="center">PS - root</h2>
+</body>
+</html>
